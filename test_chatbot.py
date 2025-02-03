@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 # Model details
 model_name = "meta-llama/Llama-3.2-3B-Instruct"
-hf_token = "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"
+hf_token = "hugging_face_auth_token"
 
 # Define the cache directory for storing the model and tokenizer
 cache_dir = "./model_cache"
